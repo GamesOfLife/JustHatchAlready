@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "net.gamesoflife.justhatchalready.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "justhatchalready.refmap.json",
+  "mixins": [
+    "SnifferEggBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
